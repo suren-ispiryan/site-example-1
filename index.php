@@ -618,7 +618,7 @@
 
 
 
-<section>
+<section class="container-fluid">
 	
 </section>
 
