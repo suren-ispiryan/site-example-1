@@ -1,0 +1,172 @@
+				/* Navbar */
+
+
+.PhoneIcon{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.PhoneNum{
+	font-size: 14px !important;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+
+				/* Header */
+
+
+
+.HeaderContainer{
+	background-image: url(assets/images/backgrounds/HeaderBack.jpg);
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+.PsCont{
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.headerButton{
+	margin-top: 25px;
+	cursor: pointer;
+	height: 60px;
+	width: 150px;
+	background-color: transparent;
+	border: 2px white solid;
+	border-radius: 50px;
+   	outline: none;
+	border: white 1px solid;
+	color: white;
+}
+
+
+
+
+
+			/* Section 1 */
+
+
+
+.padd{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.sec1rows{
+	padding-top: 15px;
+}
+.Circle{
+	height: 60px;
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	background-color: blue;
+}
+.CircleP{
+	color:white;
+}
+
+
+
+
+			/* Section 2 */
+
+
+
+
+
+.round{
+	background-color: black;
+	border-radius: 100%;
+}
+
+
+	/* Right signup part */
+.signUpTextTop{
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.signUpText{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	height: 80px;
+}
+.input{
+	font-size: 15px;
+	padding: 0px 0px 10px 10px;
+	height: 40px;
+	width: 80%;
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 1px white;
+}
+.buttonRow{
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signUpButton{
+	cursor: pointer;
+	height: 50px;
+	width: 150px;
+	background-color: white;
+	border-radius: 50px;
+	outline: none;
+}
+
+
+
+
+
+
+			/* Section 3 */
+
+
+
+
+
+.section3Heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sectionn3conts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.socialMed{
+	display: flex; 
+	justify-content: space-between;
+}
+.socialMedia{
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
