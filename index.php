@@ -364,7 +364,7 @@
 
 <section class="container-fluid" style="padding-bottom: 200px;">
 	<div class="container">
-		<div class="row d-flex justify-content-center">
+		<div class="row rowsCenter">
 			<div class="col-md-11">
 				
 				<div class="row">
@@ -391,7 +391,7 @@
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-12 sectionn3conts">
-								<img src="assets/images/teachers/teacher1.png">
+								<img src="assets/images/teachers/teacher1.png" class="img-fluid">
 							</div>
 						</div>
 
@@ -445,7 +445,7 @@
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-12 sectionn3conts">
-								<img src="assets/images/teachers/teacher2.png">
+								<img src="assets/images/teachers/teacher2.png" class="img-fluid">
 							</div>
 						</div>
 
@@ -499,7 +499,7 @@
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-12 sectionn3conts">
-								<img src="assets/images/teachers/teacher3.png">
+								<img src="assets/images/teachers/teacher3.png" class="img-fluid">
 							</div>
 						</div>
 
@@ -553,7 +553,7 @@
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-12 sectionn3conts">
-								<img src="assets/images/teachers/teacher4.png">
+								<img src="assets/images/teachers/teacher4.png" class="img-fluid">
 							</div>
 						</div>
 
@@ -618,8 +618,186 @@
 
 
 
+
 <section class="container-fluid">
-	
+	<div class="container">
+		<div class="row rowsCenter">
+			<div class="col-md-11">
+				
+				<div class="row">
+					<div class="col -md-12 section3Heading">
+						<h2>
+							Popular Courses
+						</h2>
+					</div>
+				</div>
+
+				<div class="row pb-5">
+					<div class="col-md-12 section3Heading">
+						<h5>
+							Upgrade your skills with newest courses 
+						</h5>
+					</div>
+				</div>
+
+
+			<!-- section4 col1 -->
+
+				<div class="row pb-5">
+					<div class="col-md-4">
+
+						<div class="row">
+							<div class="col-md-12">
+								<img src="assets/images/courses/courses1.jpg" class="img-fluid">
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-3">
+							<div class="col-md-11">
+								<h4>
+									Social Media Management
+								</h4>
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-1 pr-4 pb-4">
+							<div class="col-md-11">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<img src="assets/images/teachers/teacher1.png" class="img-fluid">
+							</div>
+							<div class="col-md-5 d-flex justify-content center align-items-center">
+								 <p>
+								 	Mark Wilson
+								 </p>	
+							</div>
+							<div class="col-md-4">
+								<button class="btn-success success">
+									<h6>
+										USD 25
+									</h6>
+								</button>
+							</div>
+						</div>
+
+					</div>					
+
+
+			<!-- section4 col2 -->
+
+					<div class="col-md-4">
+						
+							<div class="row">
+							<div class="col-md-12">
+								<img src="assets/images/courses/courses2.jpg" class="img-fluid">
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-3">
+							<div class="col-md-11">
+								<h4>
+									Graphic & Web Design
+								</h4>
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-1 pr-4 pb-4">
+							<div class="col-md-11">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<img src="assets/images/teachers/teacher2.png" class="img-fluid">
+							</div>
+							<div class="col-md-5 d-flex justify-content center align-items-center">
+								 <p>
+								 	Jessica
+								 </p>	
+							</div>
+							<div class="col-md-4">
+								<button class="btn-success success">
+									<h6>
+										USD 80
+									</h6>
+								</button>
+							</div>
+						</div>
+
+					</div>
+
+
+			<!-- section4 col3 -->
+
+					<div class="col-md-4">
+							<div class="row">
+							<div class="col-md-12">
+								<img src="assets/images/courses/courses3.jpg" class="img-fluid">
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-3">
+							<div class="col-md-11">
+								<h4>
+									Marceting Communication
+								</h4>
+							</div>
+						</div>
+
+						<div class="row rowsCenter pt-1 pr-4 pb-4">
+							<div class="col-md-11">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<img src="assets/images/teachers/teacher3.png" class="img-fluid">
+							</div>
+							<div class="col-md-5 d-flex justify-content center align-items-center">
+								 <p>
+								 	Catherine
+								 </p>	
+							</div>
+							<div class="col-md-4">
+								<button class="btn-success success">
+									<h6>
+										free
+									</h6>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+					
+				
+				<!-- pagination arrows -->
+				<div class="row rowsCenter">
+					<div class="col-md-1 section4Arrows">
+											
+							<button class="mr-1">
+								<h6> < </h6>
+							</button>
+						
+							<button class="ml-1">
+								<h6> > </h6>
+							</button>					
+
+					</div>
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</div>
 </section>
 
 

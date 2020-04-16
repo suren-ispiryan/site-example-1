@@ -135,7 +135,10 @@
 
 
 
-
+.rowsCenter{
+	display: flex;
+	justify-content: center;
+}
 .section3Heading{
 	display: flex;
 	justify-content: center;
@@ -158,6 +161,27 @@
 
 
 
+			/* Section 4 */
+
+
+
+
+.success{
+	height: 30px;
+	width: 70px; 
+	outline: none;
+	border: none;
+}
+
+.arrowDivs{
+	height: 20px;
+	width: 20px;
+}
+.section4Arrows{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
 
 
