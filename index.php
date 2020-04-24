@@ -99,7 +99,7 @@
 <header class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 HeaderContainer">
+			<div class="col-md-12 HeaderContainer parallax" > <!-- Background Parallax -->
 				
 				<div class="row">
 					<div class="col-md-6 PsCont">
@@ -239,7 +239,7 @@
 
 
 
-<section class="container-fluid" style="padding-bottom: 200px;">
+<section class="container-fluid fluid">
 	<div class="container">
 		<div class="row pl-3">
 			
@@ -362,7 +362,7 @@
 
 
 
-<section class="container-fluid" style="padding-bottom: 200px;">
+<section class="container-fluid fluid">
 	<div class="container">
 		<div class="row rowsCenter">
 			<div class="col-md-11">
@@ -619,7 +619,7 @@
 
 
 
-<section class="container-fluid">
+<section class="container-fluid fluid">
 	<div class="container">
 		<div class="row rowsCenter">
 			<div class="col-md-11">
@@ -775,8 +775,7 @@
 					</div>
 				</div>				
 
-					
-				
+						
 				<!-- pagination arrows -->
 				<div class="row rowsCenter">
 					<div class="col-md-1 section4Arrows">
@@ -792,7 +791,118 @@
 					</div>
 				</div>
 
+			</div>
+		</div>
+	</div>
+</section>
 
+
+
+
+
+
+			<!-- section 5 -->
+
+
+
+
+
+<section class="container-fluid fluid">
+	<div class="container">
+		<div class="row rowsCenter">
+			<div class="col-md-11">
+				
+
+				<div class="row">
+					<div class="col-md-12 section3Heading">
+						<h2>
+							Student Reviews
+						</h2>
+					</div>
+				</div>
+
+				<div class="row pb-5">
+					<div class="col-md-12 section3Heading">
+						<h5>
+							from arround the world
+						</h5>
+					</div>
+				</div>
+
+				
+				<div class="row sec5PaddingTop d-flex justify-content-center">
+
+					<!-- col1 -->
+					<div class="col-md-4">  
+						<div class="row">
+							<div class="col-md-4 sec5GeneralDivs">
+								<img src="assets/images/Section 5Faces/face1.jpg" class="img-fluid faccesRadius">
+							</div>
+							<div class="col-md-8">
+								<p> 
+									<h5> Jackson </h5> 
+									Shopify Developer 
+								</p>
+							</div>
+						</div>
+
+						<div class="row sec5Rows">
+							You really do help young <br> creative minds to get quality <br> education and professional <br> job search assistance. I'd <br> recommend it to everyone!
+						</div>
+
+						<div class="row">
+							
+						</div>
+					</div>
+
+					<!-- col2 -->
+					<div class="col-md-4">  
+						<div class="row">
+							<div class="col-md-4 sec5GeneralDivs">
+								<img src="assets/images/Section 5Faces/face2.jpg" class="img-fluid faccesRadius">
+							</div>
+							<div class="col-md-8">
+								<p> 
+									<h5> Camila </h5> 
+									Marketing Manager 
+								</p>
+							</div>
+						</div>
+
+						<div class="row sec5Rows">
+							Trying something new is <br> exciting! Thanks for the <br> amazing law course and the <br> great teacher who was able <br> to make it interesting. 
+						</div>
+
+						<div class="row">
+							
+						</div>
+					</div>
+
+					<!-- col3 -->
+					<div class="col-md-4">  
+						<div class="row">
+							<div class="col-md-4 sec5GeneralDivs">
+								<img src="assets/images/Section 5Faces/face3.png" class="img-fluid faccesRadius">
+							</div>
+							<div class="col-md-8">
+								<p> 
+									<h5> Barbie </h5> 
+									Art Director 
+								</p>
+							</div>
+						</div>
+
+						<div class="row sec5Rows">
+							Donec erat libero, blandit <br> vitae arcu eu, latinia <br> placerat justo. Sed <br> sollicitudin quis felis vitae <br> hendrerit.
+						</div>
+
+						<div class="row">
+							
+						</div>
+					</div>
+
+				</div>
+				
 
 
 			</div>
@@ -804,6 +914,89 @@
 
 
 
+
+
+			<!-- Section 6 -->
+
+
+
+
+
+<section class="container-fluid fluid">
+	<div class="container">
+		<div class="row Sec6GenDivPadd">
+		<!-- left div -->
+			<div class="col-md-6 Sec6Gen2Divs">
+	
+				<div class="row pb-4">
+					<div class="col-md-12">
+						<h2> Contact us </h2>
+						<p> We love conversations. Let us talk! </p>
+					</div>
+				</div>
+				
+				<div class="row pb-1">
+					<div class="col-md-12">
+						<input type="text" name="name" placeholder="Enter full name" class="sec6Inputs">
+						<input type="text" name="email" placeholder="Enter Email adress" class="sec6Inputs">
+						<textarea rows="5" class="textarea"> Tell us about your message </textarea>
+					</div>
+				</div>
+
+				<div class="row pb-4">
+					<div class="col-md-12">
+						<button class="Sec6btn"> Send Message </button>
+					</div>
+				</div>
+
+			</div>
+
+		<!-- right div -->
+			<div class="col-md-6 d-flex justify-content-center align-items-center">	
+				<img src="assets/images/sec6photo/picture.jpg" class="img-fluid">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+			<!-- Footer -->
+
+
+
+
+
+<footer class="container-fluid">
+	<div class="container">
+		
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+			<!-- Go Up Button -->
+			
+
+
+<div id="goUpButton">
+	<p>
+		↑
+	</p>
+</div>
 
 
 
