@@ -241,14 +241,14 @@
 
 <section class="container-fluid fluid">
 	<div class="container">
-		<div class="row pl-3">
+		<div class="row pl-3 sec2LeftDiv">
 			
 
 			<!-- Left part -->
 			<div class="col-md-6">
 				
 				<div class="row">
-					<div class="col-md-12 ">
+					<div class="col-md-12">
 						<h2>
 							<b> 
 								Start your jurney to a better life with online practical courses 
@@ -310,10 +310,10 @@
 
 
 		<!-- Right(sign in) part -->
-			<div class="col-md-5 round">
+			<div class="col-xl-5 round">
 				 
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 ">
 						<h2 class="signUpTextTop">
 							Signup today
 						</h2>
@@ -647,7 +647,7 @@
 					<div class="col-md-4">
 
 						<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-12 sec4ColsMargin">
 								<img src="assets/images/courses/courses1.jpg" class="img-fluid">
 							</div>
 						</div>
@@ -668,7 +668,7 @@
 
 						<div class="row">
 							<div class="col-md-3">
-								<img src="assets/images/teachers/teacher1.png" class="img-fluid">
+								<img src="assets/images/teachers/teacher1.png" class="img-fluid queryTeachers">
 							</div>
 							<div class="col-md-5 d-flex justify-content center align-items-center">
 								 <p>
@@ -692,7 +692,7 @@
 					<div class="col-md-4">
 						
 							<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-12 sec4ColsMargin">
 								<img src="assets/images/courses/courses2.jpg" class="img-fluid">
 							</div>
 						</div>
@@ -713,7 +713,7 @@
 
 						<div class="row">
 							<div class="col-md-3">
-								<img src="assets/images/teachers/teacher2.png" class="img-fluid">
+								<img src="assets/images/teachers/teacher2.png" class="img-fluid queryTeachers">
 							</div>
 							<div class="col-md-5 d-flex justify-content center align-items-center">
 								 <p>
@@ -736,7 +736,7 @@
 
 					<div class="col-md-4">
 							<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-12 sec4ColsMargin">
 								<img src="assets/images/courses/courses3.jpg" class="img-fluid">
 							</div>
 						</div>
@@ -757,7 +757,7 @@
 
 						<div class="row">
 							<div class="col-md-3">
-								<img src="assets/images/teachers/teacher3.png" class="img-fluid">
+								<img src="assets/images/teachers/teacher3.png" class="img-fluid queryTeachers">
 							</div>
 							<div class="col-md-5 d-flex justify-content center align-items-center">
 								 <p>

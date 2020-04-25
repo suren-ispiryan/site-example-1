@@ -311,3 +311,86 @@
 
 
 
+
+
+		
+			/* Media query section */
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .round{
+	width: 50% !important; 
+	padding-bottom: 30px; 
+	margin-top: 50px;	
+  }
+  .sec2LeftDiv{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .round{
+	width: 70% !important;  	
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  	/* sec2 */
+  .round{
+	width: 80% !important;  	
+  }
+  .socialMed{
+  	display: flex;
+  	justify-content: center;
+  }
+  	/* sec3 */
+  .socialMedia{
+  	margin-left: 20px;
+  }
+  .queryTeachers{
+  	height: 100px;
+  	width: 100px;
+  }
+  .sec4ColsMargin{
+  	margin-top: 100px;
+  }
+  .subCols{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+	/* sec5 */
+  .faccesRadius{
+  	height: 100px;
+  	width: 100px;
+  	margin-top: 70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
