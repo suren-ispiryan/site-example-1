@@ -922,7 +922,7 @@
 
 
 
-<section class="container-fluid fluid">
+<section class="container-fluid">
 	<div class="container">
 		<div class="row Sec6GenDivPadd">
 		<!-- left div -->
@@ -965,6 +965,25 @@
 
 
 
+			<!-- Go Up Button -->
+			
+
+
+
+
+
+<div id="goUpButton">
+	<a href="index.php">
+		↑ 
+	</a> 
+</div>
+
+
+
+
+
+
+
 
 			<!-- Footer -->
 
@@ -972,31 +991,108 @@
 
 
 
+
 <footer class="container-fluid">
 	<div class="container">
+		<div class="row footerRaw">
+			
+		<!-- Footer left col -->
+			<div class="col-md-4">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="pb-1"> Headquarter </h3>
+						<p> 1800 dapibus a tortor pretium,
+							<br> integer nisl dui ABC 12000
+						</p>
+					</div>
+				</div>
+			
+				<div class="row pt-3">
+					<div class="col-md-12">
+						<img src="assets/icons/facebook.png" height="20px" width="20px"class="footerImg">
+						<img src="assets/icons/twitter.png" height="20px" width="20px"class="footerImg">
+						<img src="assets/icons/instagram.png" height="20px" width="20px" class="footerImg">	
+					</div>
+				</div>
+
+				<div class="row pt-4">
+					<div class="col-md-12">
+						<p> Copyright @ 2018 Coompany </p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<p> Design: Template Mo </p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<p> Distribution: ThemeWagon </p>
+					</div>
+				</div>
+
+			</div>
+
+
+
+		<!-- Footer middle col -->
+			<div class="col-md-4">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="pb-1"> Contact Info </h3>
+						<p> +65 2244 1100, +66 1800 1100
+ 							<br> hello@youremail.co
+						</p>
+					</div>
+				</div>
+			
+				<div class="row pt-4">
+					<div class="col-md-12">
+						<h3 class="pb-1"> Quick links </h3>
+						<p> Career investor Terms and Conditions </p>
+						<p> Refund Policy </p>
+					</div>
+				</div>
+
+			</div>
 		
+		<!-- Footer right col -->
+			<div class="col-md-4">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="pb-3"> Newsletter Signup </h3>
+						<p class="pl-3"> Enter your email </p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<button class="footerBtn"> Send me </button>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<p class="pt-4 footerLastSentence"> *please note -we do not spam your email. </p>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
 	</div>
 </footer>
 
 
 
 
-
-
-
-
-
-
-
-			<!-- Go Up Button -->
-			
-
-
-<div id="goUpButton">
-	<p>
-		↑
-	</p>
-</div>
 
 
 
