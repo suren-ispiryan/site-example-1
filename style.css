@@ -10,11 +10,16 @@
 	align-items: flex-start;
 }
 .PhoneNum{
-	font-size: 14px !important;
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
 }
+.call{
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 
@@ -261,6 +266,7 @@
 	bottom: 20px;
 	right: 20px;
 	border-radius: 5px;
+	display: none;
 }
 #goUpButton > a{
 	font-size: 30px;
@@ -311,10 +317,29 @@
 
 
 
+			/* Hover part */
+
+ul > li:hover{
+	box-shadow: 3px 3px #888888;
+	background-color: rgb(53,71,75);
+	font-size: 16px;
+	padding: 1px;
+}
+ul > li > a:hover{
+	color: white !important;
+}
+.call:hover{
+	box-shadow: 3px 3px #888888;
+	background-color: rgb(53,71,75);
+	color: white !important;
+}
+
+
 
 
 		
 			/* Media query section */
+
 
 
 
@@ -331,6 +356,10 @@
   	display: flex;
   	justify-content: center;
   	align-items: center;
+  }
+  .PhoneNum{
+  	justify-content: flex-start;
+  	align-items: flex-start;
   }
 }
 
