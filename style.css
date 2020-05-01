@@ -1,15 +1,15 @@
 				/* Navbar */
 
 .fluid{
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
-.PhoneIcon{
+.Phone-icon{
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
 }
-.PhoneNum{
+.Phone-num{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +19,23 @@
 	justify-content: center;
 	align-items: center;
 }
+.fixed-top{
+	padding-left: 15% !important;
+	padding-right: 15% !important;
+}
 
+
+
+
+
+.containers-back{
+	background-color: rgba(30, 30, 30, 0.1);
+	border-radius: 10px;
+	padding-top: 20px;
+}
+img{
+	border-radius: 10px;
+}
 
 
 
@@ -27,23 +43,24 @@
 
 
 
-.HeaderContainer{
+.Header-container{
 	background-image: url(assets/images/backgrounds/HeaderBack.jpg);
 									/* parallax */
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 600px;
 	display: flex;
 	align-items: center;
 }
-.PsCont{
+.Ps-cont{
 	color: white;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	padding-left: 50px !important;
 }
-.headerButton{
+.header-button{
 	margin-top: 25px;
 	cursor: pointer;
 	height: 60px;
@@ -54,6 +71,9 @@
    	outline: none;
 	border: white 1px solid;
 	color: white;
+}
+.parallax-container{
+	height: 750px;
 }
 
 
@@ -68,7 +88,7 @@
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
-.sec1rows{
+.sec-1-rows{
 	padding-top: 15px;
 }
 .Circle{
@@ -80,7 +100,7 @@
 	border-radius: 100%;
 	background-color: blue;
 }
-.CircleP{
+.Circle-p{
 	color:white;
 }
 
@@ -100,13 +120,13 @@
 
 
 	/* Right signup part */
-.signUpTextTop{
+.top-sign-up-text{
 	color: white;
 	display: flex;
 	justify-content: center;
 	padding-top: 60px;
 }
-.signUpText{
+.sign-up-text{
 	display: flex;
 	justify-content: center;
 	padding-top: 30px;
@@ -121,13 +141,13 @@
 	border: none;
 	border-bottom: solid 1px white;
 }
-.buttonRow{
+.button-row{
 	margin-top: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.signUpButton{
+.sign-up-button{
 	cursor: pointer;
 	height: 50px;
 	width: 150px;
@@ -146,25 +166,25 @@
 
 
 
-.rowsCenter{
+.rows-center{
 	display: flex;
 	justify-content: center;
 }
-.section3Heading{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.sectionn3conts{
+.section-3-heading{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.socialMed{
+.section-3-conts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-med{
 	display: flex; 
 	justify-content: space-between;
 }
-.socialMedia{
+.social-media{
 	height: 30px;
 	width: 30px;
 }
@@ -184,16 +204,21 @@
 	border: none;
 }
 
-.arrowDivs{
+.arrow-divs{
 	height: 20px;
 	width: 20px;
 }
-.section4Arrows{
+.section-4-arrows{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-
+.section-4-arrows > button{
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-color: silver;
+}
 
 
 
@@ -203,13 +228,13 @@
 
 
 
-.sec5PaddingTop{
+.sec-5-padding-top{
 	padding-top: 100px;
 }
-.faccesRadius{
+.facces-radius{
 	border-radius: 100%;
 }
-.sec5Rows{
+.sec-5-rows{
 	padding-top: 20px;
 }
 
@@ -221,14 +246,22 @@
 
 
 
-.Sec6GenDivPadd{
-	background-color: blue;
-	padding: 100px 50px 100px 50px;
+.Sec-6-gen-div-padd{background-image: url(assets/images/backgrounds/HeaderBack.jpg);
+									/* parallax */
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 650px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 110px 50px 110px 50px;
 }
-.Sec6Gen2Divs{
+.Sec-6-gen-2-divs{
 	color: white;
 }
-.sec6Inputs{
+.sec-6-inputs{
+	opacity: 0.7;
 	height: 50px;
 	width: 80%;
 	border-radius: 10px;
@@ -236,10 +269,11 @@
 	padding-left: 10px;
 }
 .textarea{
+	opacity: 0.7;
 	width: 80%;
 	border-radius: 10px;
 }
-.Sec6btn{
+.Sec-6-btn{opacity: 0.8;
 	height: 50px;
 	width: 30%;
 	border-radius: 30px;
@@ -248,7 +282,9 @@
 	margin-top: 10px;
 	background-color: silver;
 }
-
+.img-style{
+	border-radius: 10px;
+}
 
 
 
@@ -256,7 +292,7 @@
 
 
 
-#goUpButton{
+#go-up-button{
 	height: 50px;
 	width: 50px;
 	background-color: grey;
@@ -268,13 +304,13 @@
 	border-radius: 5px;
 	display: none;
 }
-#goUpButton > a{
+#go-up-button > a{
 	font-size: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-#goUpButton > a{
+#go-up-button > a{
 	text-decoration: none;
 	list-style-type: none;
 	color: white;
@@ -290,18 +326,19 @@
 
 
 
-.footerRaw{
+.footer-raw{
+	border-radius: 10px !important;
 	color: white;
-	background-color: #1a0000;
-	padding-top: 150px;
-	padding-bottom: 120px;
+	background-color: rgba(30,45,53,0.5);
+	padding-top: 90px;
+	padding-bottom: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.footerImg{
+.footer-img{
 	margin-right: 10%;
 }
-.footerBtn{
+.footer-btn{
 	height: 60px;
 	width: 150px;
 	border-radius: 30px;
@@ -311,13 +348,19 @@
 	cursor: pointer;
 	background-color: transparent;
 }
-.footerLastSentence{
+.footer-last-sentence{
 	font-size: 12px;
 }
 
 
 
+
+
 			/* Hover part */
+
+
+
+
 
 ul > li:hover{
 	box-shadow: 3px 3px #888888;
@@ -337,10 +380,8 @@ ul > li > a:hover{
 
 
 
-		
+	
 			/* Media query section */
-
-
 
 
 
@@ -352,12 +393,12 @@ ul > li > a:hover{
 	padding-bottom: 30px; 
 	margin-top: 50px;	
   }
-  .sec2LeftDiv{
+  .sec-2-Left-div{
   	display: flex;
   	justify-content: center;
   	align-items: center;
   }
-  .PhoneNum{
+  .Phone-num{
   	justify-content: flex-start;
   	align-items: flex-start;
   }
@@ -376,38 +417,108 @@ ul > li > a:hover{
   .round{
 	width: 80% !important;  	
   }
-  .socialMed{
+  .social-med{
   	display: flex;
   	justify-content: center;
   }
   	/* sec3 */
-  .socialMedia{
+  .social-media{
   	margin-left: 20px;
+  	margin-bottom: 50px;
   }
-  .queryTeachers{
+  .section-4-arrows{
+  	justify-content: center;
+  }
+  .query-teachers{
   	height: 100px;
   	width: 100px;
   }
-  .sec4ColsMargin{
+  .sec-4-cols-margin{
   	margin-top: 100px;
   }
-  .subCols{
+  .sub-cols{
   	display: flex;
   	justify-content: center;
   	align-items: center;
   }
 	/* sec5 */
-  .faccesRadius{
+  .sec-5-general-divs, .sec-5-rows, .names{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+  .sec-5-padding-top{
+  	padding-top: 30px;
+  }
+  .facces-radius{
   	height: 100px;
   	width: 100px;
   	margin-top: 70px;
   }
+  	/* sec6 */
+ .Sec-6-gen-div-padd{
+ 	height: 900px;
+ }
 }
 
 
+@media only screen and (max-width: 600px) {
+ .round{
+ 	height: 400px;
+ 	width: 400px;
+ }
+ .sign-up-text{
+ 	height: 60px;
+ 	padding-top: 5px;
+ }
+}
 
 
+@media only screen and (max-width: 550px) {
+ .top-sign-up-text{
+	font-size: 25px;
+	padding-top: 30px;
+ }
+ .round{
+ 	height: 300px;
+ 	width: 300px;
+ }
+ .sign-up-text{
+ 	height: 40px;
+ 	padding-top: 0;
+ }
+ .sign-up-button{
+ 	height: 40px;
+ 	width: 120px;
+ }
+}
 
+
+@media only screen and (max-width: 500px) {
+ 	/* sec6 */
+ .Sec-6-gen-div-padd{
+ 	height: 800px;
+ }	
+}
+
+
+@media only screen and (max-width: 400px) {
+ 	/* sec6 */
+ .Sec-6-gen-div-padd{
+ 	height: 750px;
+ }	
+ .round{
+ 	height: 300px;
+ 	width: 300px;
+ }
+ .sign-up-text{
+ 	height: 35px;
+ 	padding-top: 0;
+ }
+ .input{
+ 	height: 30px;
+ }
+}
 
 
 
